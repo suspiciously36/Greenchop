@@ -1,0 +1,69 @@
+.hero-section {
+    display : flex;
+    position: relative;
+
+    .hero-section_desc {
+        margin-top: calc(326px - $navbarHeight);
+
+        .subtitle {
+            margin-bottom: 20px;
+            color        : $textColor;
+            font-size    : 3.67rem;
+            font-weight  : 800;
+            line-height  : 131.523%;
+        }
+
+        .title {
+            margin-bottom: 27.67px;
+            color        : $textColor;
+            font-size    : 4.33rem;
+            font-weight  : 800;
+        }
+
+        .desc {
+            color      : $textColor;
+            font-size  : 1.6rem;
+            font-weight: 400;
+            line-height: 1.276;
+        }
+    }
+
+    .hero-section_decor {
+        img {
+            position   : absolute;
+            top        : 65px;
+            left       : 530px;
+            max-height : 100%;
+            width      : auto;
+            margin-left: 16.5px;
+        }
+
+    }
+}
+
+.hero-background {
+    position                 : absolute;
+    display                  : flex;
+    justify-content          : end;
+    z-index                  : -1;
+    top                      : $navbarHeight;
+    right                    : 0;
+    background               : #DCFFCA;
+    width                    : 48%;
+    height                   : 72vh;
+    color                    : #22600026;
+    font-size                : 16.67rem;
+    font-weight              : 800;
+    line-height              : 1;
+    border-top-left-radius   : 16.667px;
+    border-bottom-left-radius: 16.667px;
+    text-align               : start;
+
+    span {
+        display         : block;
+        writing-mode    : vertical-rl;
+        text-orientation: mixed;
+        padding         : 55px 35px 0 0;
+    }
+
+}
